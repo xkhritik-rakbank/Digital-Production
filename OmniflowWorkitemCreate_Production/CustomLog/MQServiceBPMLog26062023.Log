@@ -1,0 +1,737 @@
+[ INFO] 26-Jun-2023 17:39:46 (CreateWorkitem.java:269)
+MsgFormatName: CUSTOMER_SR
+
+[Mon Jun 26 17:39:46 GST 2023]
+Entering the callCreateWIWebservice method
+
+[Mon Jun 26 17:39:46 GST 2023]
+callWI : A
+
+[Mon Jun 26 17:39:46 GST 2023]
+callWI : B
+
+[Mon Jun 26 17:39:46 GST 2023]
+Objects created
+
+[Mon Jun 26 17:39:46 GST 2023]
+Header parameters set
+
+[Mon Jun 26 17:39:46 GST 2023]
+Attribute Object Initialized
+
+[Mon Jun 26 17:39:46 GST 2023]
+Workitem Attributes set
+
+[Mon Jun 26 17:39:46 GST 2023]
+Document Object Initialized
+
+[Mon Jun 26 17:39:46 GST 2023]
+Document Attributes set
+
+[Mon Jun 26 17:39:46 GST 2023]
+Setting the mandatory params
+
+[Mon Jun 26 17:39:46 GST 2023]
+inside wiCreate 1
+
+[Mon Jun 26 17:39:46 GST 2023]
+Loading Configuration file 123
+
+[Mon Jun 26 17:39:46 GST 2023]
+config file path is D:\Eclipse_workplace\OmniflowWorkitemCreate_Production\BPMCustomWebservicesConf\config.properties
+
+[Mon Jun 26 17:39:46 GST 2023]
+After p load
+
+[Mon Jun 26 17:39:46 GST 2023]
+CabinetName: rakcas, JtsIp: 10.15.12.164, JtsPort: 3333 ,Username: mqserviceuser, Password: 4A213C65C2981CC28BC3B0C3BC ,VolumeID: 1
+
+[Mon Jun 26 17:39:46 GST 2023]
+Configuration file loaded successfuly
+
+[Mon Jun 26 17:39:46 GST 2023]
+inside loadResourceBundle
+
+[Mon Jun 26 17:39:46 GST 2023]
+Status Codes loaded successfully
+
+[Mon Jun 26 17:39:46 GST 2023]
+Inside fetchRequestParameters
+
+[Mon Jun 26 17:39:46 GST 2023]
+attributeObj.length3
+
+[Mon Jun 26 17:39:46 GST 2023]
+sProcessName: CPMS12, sSubProcess: CCS.GAD sInitiateAlso: Y
+
+[Mon Jun 26 17:39:46 GST 2023]
+Inside validateRequestParameters
+
+[Mon Jun 26 17:39:46 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select a.PROCESSDEFID, b.PROCESSID from processdeftable a with(nolock),USR_0_WSR_PROCESS b with(nolock) where a.processname='CPMS12' and b.SUBPROCESSNAME='CCS.GAD' and a.processname=b.processname and isactive='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:39:47 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+	</Records>
+	<TotalRetrieved>0</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:39:47 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:39:47 GST 2023]
+processDefID: 
+
+[Mon Jun 26 17:39:47 GST 2023]
+processID: 
+
+[Mon Jun 26 17:39:47 GST 2023]
+WICreateException caught:Message- null
+
+[Mon Jun 26 17:39:47 GST 2023]
+WICreateException caught:Code- 1019
+
+[Mon Jun 26 17:39:47 GST 2023]
+WICreateException caught:Description No mapping in USR_0_WSR_PROCESS for Process Name/Subprocess Name:CPMS12/CCS.GAD
+
+[Mon Jun 26 17:39:47 GST 2023]
+WICreateException: WICreateException- ErrorCode:1019, ErrorDescription:No mapping in USR_0_WSR_PROCESS for Process Name/Subprocess Name:CPMS12/CCS.GAD
+
+[Mon Jun 26 17:39:47 GST 2023]
+Inside finally method to dispose off conenction objects and hash maps
+
+[Mon Jun 26 17:39:47 GST 2023]
+Header obtained
+
+[Mon Jun 26 17:39:47 GST 2023]
+returnCode: 1019 returnDesc: Failure:No mapping in USR_0_WSR_PROCESS for Process Name/Subprocess Name:CPMS12/CCS.GAD
+
+[Mon Jun 26 17:39:47 GST 2023]
+outputMessage: <?xml version="1.0"?><EE_EAI_MESSAGE><EE_EAI_HEADER><MsgFormat>CUSTOMER_SR</MsgFormat><MsgVersion>0000</MsgVersion><RequestorChannelId>EBC.WBA</RequestorChannelId><RequestorUserId>RAKUSER</RequestorUserId><RequestorLanguage>E</RequestorLanguage><RequestorSecurityInfo>secure</RequestorSecurityInfo><ReturnCode>1019</ReturnCode><ReturnDesc>Failure:No mapping in USR_0_WSR_PROCESS for Process Name/Subprocess Name:CPMS12/CCS.GAD</ReturnDesc><MessageId>Test19312123374445</MessageId><Extra1>REQ || DEH.123</Extra1><Extra2>2011-02-08T15:31:38.818+05:30</Extra2></EE_EAI_HEADER>
+
+[Mon Jun 26 17:39:47 GST 2023]
+Exiting method callWICreateService
+
+[ INFO] 26-Jun-2023 17:40:13 (CreateWorkitem.java:269)
+MsgFormatName: CUSTOMER_SR
+
+[Mon Jun 26 17:40:13 GST 2023]
+Entering the callCreateWIWebservice method
+
+[Mon Jun 26 17:40:13 GST 2023]
+callWI : A
+
+[Mon Jun 26 17:40:13 GST 2023]
+callWI : B
+
+[Mon Jun 26 17:40:13 GST 2023]
+Objects created
+
+[Mon Jun 26 17:40:13 GST 2023]
+Header parameters set
+
+[Mon Jun 26 17:40:13 GST 2023]
+Attribute Object Initialized
+
+[Mon Jun 26 17:40:13 GST 2023]
+Workitem Attributes set
+
+[Mon Jun 26 17:40:13 GST 2023]
+Document Object Initialized
+
+[Mon Jun 26 17:40:13 GST 2023]
+Document Attributes set
+
+[Mon Jun 26 17:40:13 GST 2023]
+Setting the mandatory params
+
+[Mon Jun 26 17:40:13 GST 2023]
+attributeList--[Ljava.lang.String;@4d405ef7
+
+[Mon Jun 26 17:40:13 GST 2023]
+inside wiCreate 1
+
+[Mon Jun 26 17:40:13 GST 2023]
+Loading Configuration file 123
+
+[Mon Jun 26 17:40:13 GST 2023]
+config file path is D:\Eclipse_workplace\OmniflowWorkitemCreate_Production\BPMCustomWebservicesConf\config.properties
+
+[Mon Jun 26 17:40:13 GST 2023]
+After p load
+
+[Mon Jun 26 17:40:13 GST 2023]
+CabinetName: rakcas, JtsIp: 10.15.12.164, JtsPort: 3333 ,Username: mqserviceuser, Password: 4A213C65C2981CC28BC3B0C3BC ,VolumeID: 1
+
+[Mon Jun 26 17:40:13 GST 2023]
+Configuration file loaded successfuly
+
+[Mon Jun 26 17:40:13 GST 2023]
+inside loadResourceBundle
+
+[Mon Jun 26 17:40:13 GST 2023]
+Status Codes loaded successfully
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside fetchRequestParameters
+
+[Mon Jun 26 17:40:13 GST 2023]
+attributeObj.length3
+
+[Mon Jun 26 17:40:13 GST 2023]
+sProcessName: CPMS, sSubProcess: CCS.GAD sInitiateAlso: Y
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside validateRequestParameters
+
+[Mon Jun 26 17:40:13 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select a.PROCESSDEFID, b.PROCESSID from processdeftable a with(nolock),USR_0_WSR_PROCESS b with(nolock) where a.processname='CPMS' and b.SUBPROCESSNAME='CCS.GAD' and a.processname=b.processname and isactive='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:40:13 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<PROCESSDEFID>60</PROCESSDEFID>
+			<PROCESSID>CPMS_GAD</PROCESSID>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:40:13 GST 2023]
+processDefID: 60
+
+[Mon Jun 26 17:40:13 GST 2023]
+processID: CPMS_GAD
+
+[Mon Jun 26 17:40:13 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select QueueID from QUEUEDEFTABLE with(nolock) where ProcessName='CPMS' and QueueName='CPMS_Create_Request'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:40:13 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<QueueID>2136</QueueID>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:40:13 GST 2023]
+QueueID: 2136
+
+[Mon Jun 26 17:40:13 GST 2023]
+inside checkMandatoryAttributeDBO
+
+[Mon Jun 26 17:40:13 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME from USR_0_WSR_ATTRDETAILS with(nolock) where PROCESSID='CPMS_GAD' and ISMANDATORY='Y' and ISACTIVE='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:40:13 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<ATTRIBUTENAME>CIF_ID_CustomerDetails</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>MobileNo_CustomerDetails</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ComplaintCategory</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ISRAKCustomer</ATTRIBUTENAME>
+		</Record>
+	</Records>
+	<TotalRetrieved>4</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:40:13 GST 2023]
+WICreateException caught:Message- null
+
+[Mon Jun 26 17:40:13 GST 2023]
+WICreateException caught:Code- 1020
+
+[Mon Jun 26 17:40:13 GST 2023]
+WICreateException caught:Description Mandatory Attribute Name Value Tag missing: ISRAKCustomer
+
+[Mon Jun 26 17:40:13 GST 2023]
+WICreateException: WICreateException- ErrorCode:1020, ErrorDescription:Mandatory Attribute Name Value Tag missing: ISRAKCustomer
+
+[Mon Jun 26 17:40:13 GST 2023]
+Inside finally method to dispose off conenction objects and hash maps
+
+[Mon Jun 26 17:40:13 GST 2023]
+Header obtained
+
+[Mon Jun 26 17:40:13 GST 2023]
+returnCode: 1020 returnDesc: Failure:Mandatory Attribute Name Value Tag missing: ISRAKCustomer
+
+[Mon Jun 26 17:40:13 GST 2023]
+outputMessage: <?xml version="1.0"?><EE_EAI_MESSAGE><EE_EAI_HEADER><MsgFormat>CUSTOMER_SR</MsgFormat><MsgVersion>0000</MsgVersion><RequestorChannelId>EBC.WBA</RequestorChannelId><RequestorUserId>RAKUSER</RequestorUserId><RequestorLanguage>E</RequestorLanguage><RequestorSecurityInfo>secure</RequestorSecurityInfo><ReturnCode>1020</ReturnCode><ReturnDesc>Failure:Mandatory Attribute Name Value Tag missing: ISRAKCustomer</ReturnDesc><MessageId>Test19312123374445</MessageId><Extra1>REQ || DEH.123</Extra1><Extra2>2011-02-08T15:31:38.818+05:30</Extra2></EE_EAI_HEADER>
+
+[Mon Jun 26 17:40:13 GST 2023]
+Exiting method callWICreateService
+
+[ INFO] 26-Jun-2023 17:41:21 (CreateWorkitem.java:269)
+MsgFormatName: CUSTOMER_SR
+
+[Mon Jun 26 17:41:21 GST 2023]
+Entering the callCreateWIWebservice method
+
+[Mon Jun 26 17:41:21 GST 2023]
+callWI : A
+
+[Mon Jun 26 17:41:21 GST 2023]
+callWI : B
+
+[Mon Jun 26 17:41:21 GST 2023]
+Objects created
+
+[Mon Jun 26 17:41:21 GST 2023]
+Header parameters set
+
+[Mon Jun 26 17:41:21 GST 2023]
+Attribute Object Initialized
+
+[Mon Jun 26 17:41:21 GST 2023]
+Workitem Attributes set
+
+[Mon Jun 26 17:41:21 GST 2023]
+Document Object Initialized
+
+[Mon Jun 26 17:41:21 GST 2023]
+Document Attributes set
+
+[Mon Jun 26 17:41:21 GST 2023]
+Setting the mandatory params
+
+[Mon Jun 26 17:41:21 GST 2023]
+attributeList--[Ljava.lang.String;@4d405ef7
+
+[Mon Jun 26 17:41:21 GST 2023]
+inside wiCreate 1
+
+[Mon Jun 26 17:41:21 GST 2023]
+Loading Configuration file 123
+
+[Mon Jun 26 17:41:21 GST 2023]
+config file path is D:\Eclipse_workplace\OmniflowWorkitemCreate_Production\BPMCustomWebservicesConf\config.properties
+
+[Mon Jun 26 17:41:21 GST 2023]
+After p load
+
+[Mon Jun 26 17:41:22 GST 2023]
+CabinetName: rakcas, JtsIp: 10.15.12.164, JtsPort: 3333 ,Username: mqserviceuser, Password: 4A213C65C2981CC28BC3B0C3BC ,VolumeID: 1
+
+[Mon Jun 26 17:41:22 GST 2023]
+Configuration file loaded successfuly
+
+[Mon Jun 26 17:41:22 GST 2023]
+inside loadResourceBundle
+
+[Mon Jun 26 17:41:22 GST 2023]
+Status Codes loaded successfully
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside fetchRequestParameters
+
+[Mon Jun 26 17:41:22 GST 2023]
+attributeObj.length4
+
+[Mon Jun 26 17:41:22 GST 2023]
+sProcessName: CPMS, sSubProcess: CCS.GAD sInitiateAlso: N
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside validateRequestParameters
+
+[Mon Jun 26 17:41:22 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select a.PROCESSDEFID, b.PROCESSID from processdeftable a with(nolock),USR_0_WSR_PROCESS b with(nolock) where a.processname='CPMS' and b.SUBPROCESSNAME='CCS.GAD' and a.processname=b.processname and isactive='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<PROCESSDEFID>60</PROCESSDEFID>
+			<PROCESSID>CPMS_GAD</PROCESSID>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+processDefID: 60
+
+[Mon Jun 26 17:41:22 GST 2023]
+processID: CPMS_GAD
+
+[Mon Jun 26 17:41:22 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select QueueID from QUEUEDEFTABLE with(nolock) where ProcessName='CPMS' and QueueName='CPMS_Create_Request'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<QueueID>2136</QueueID>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+QueueID: 2136
+
+[Mon Jun 26 17:41:22 GST 2023]
+inside checkMandatoryAttributeDBO
+
+[Mon Jun 26 17:41:22 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME from USR_0_WSR_ATTRDETAILS with(nolock) where PROCESSID='CPMS_GAD' and ISMANDATORY='Y' and ISACTIVE='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<ATTRIBUTENAME>CIF_ID_CustomerDetails</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>MobileNo_CustomerDetails</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ComplaintCategory</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ISRAKCustomer</ATTRIBUTENAME>
+		</Record>
+	</Records>
+	<TotalRetrieved>4</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME, isnull(nullif(EXTERNALTABLECOLNAME,''),'#') as EXTERNALTABLECOLNAME,isnull(nullif(TRANSACTIONTABLECOLNAME,''),'#') as TRANSACTIONTABLECOLNAME, ISMANDATORY from USR_0_WSR_ATTRDETAILS with(nolock) where ATTRIBUTENAME in ('CIF_ID_CustomerDetails','ComplaintCategory','MobileNo_CustomerDetails','ISRAKCustomer') and PROCESSID='CPMS_GAD'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+ <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<ATTRIBUTENAME>CIF_ID_CustomerDetails</ATTRIBUTENAME>
+			<EXTERNALTABLECOLNAME>CIF_ID_CustomerDetails</EXTERNALTABLECOLNAME>
+			<TRANSACTIONTABLECOLNAME>#</TRANSACTIONTABLECOLNAME>
+			<ISMANDATORY>Y</ISMANDATORY>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>MobileNo_CustomerDetails</ATTRIBUTENAME>
+			<EXTERNALTABLECOLNAME>MobileNo_CustomerDetails</EXTERNALTABLECOLNAME>
+			<TRANSACTIONTABLECOLNAME>#</TRANSACTIONTABLECOLNAME>
+			<ISMANDATORY>Y</ISMANDATORY>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ComplaintCategory</ATTRIBUTENAME>
+			<EXTERNALTABLECOLNAME>ComplaintCategory</EXTERNALTABLECOLNAME>
+			<TRANSACTIONTABLECOLNAME>#</TRANSACTIONTABLECOLNAME>
+			<ISMANDATORY>Y</ISMANDATORY>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>ISRAKCustomer</ATTRIBUTENAME>
+			<EXTERNALTABLECOLNAME>ISRAKCustomer</EXTERNALTABLECOLNAME>
+			<TRANSACTIONTABLECOLNAME>#</TRANSACTIONTABLECOLNAME>
+			<ISMANDATORY>Y</ISMANDATORY>
+		</Record>
+	</Records>
+	<TotalRetrieved>4</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+txnColumnName1086:-#`#`#`#
+
+[Mon Jun 26 17:41:22 GST 2023]
+exttablecolumn1086:-CIF_ID_CustomerDetails`MobileNo_CustomerDetails`ComplaintCategory`ISRAKCustomer
+
+[Mon Jun 26 17:41:22 GST 2023]
+AttrTagsName.length:-4
+
+[Mon Jun 26 17:41:22 GST 2023]
+MandateList.length:-4
+
+[Mon Jun 26 17:41:22 GST 2023]
+ExtColsName.length:-4
+
+[Mon Jun 26 17:41:22 GST 2023]
+txnColsName.length:-4
+
+[Mon Jun 26 17:41:22 GST 2023]
+attribute value:-1234567
+
+[Mon Jun 26 17:41:22 GST 2023]
+this is a extn table attribute:-CIF_ID_CustomerDetails
+
+[Mon Jun 26 17:41:22 GST 2023]
+attribute value:-0097158671995376
+
+[Mon Jun 26 17:41:22 GST 2023]
+this is a extn table attribute:-MobileNo_CustomerDetails
+
+[Mon Jun 26 17:41:22 GST 2023]
+attribute value:-Accounts
+
+[Mon Jun 26 17:41:22 GST 2023]
+this is a extn table attribute:-ComplaintCategory
+
+[Mon Jun 26 17:41:22 GST 2023]
+attribute value:-Y
+
+[Mon Jun 26 17:41:22 GST 2023]
+this is a extn table attribute:-ISRAKCustomer
+
+[Mon Jun 26 17:41:22 GST 2023]
+Final attributeTag:-
+<CIF_ID_CustomerDetails>1234567</CIF_ID_CustomerDetails>
+<MobileNo_CustomerDetails>0097158671995376</MobileNo_CustomerDetails>
+<ComplaintCategory>Accounts</ComplaintCategory>
+<ISRAKCustomer>Y</ISRAKCustomer><CreationChannel>Online</CreationChannel><Channel>EBC.WBA</Channel>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select EXTERNALTABLE ,TRANSACTIONTABLE  from USR_0_WSR_PROCESS with(nolock) where PROCESSID='CPMS_GAD'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<EXTERNALTABLE>NG_CPMS_EXTTABLE</EXTERNALTABLE>
+			<TRANSACTIONTABLE></TRANSACTIONTABLE>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+External table Name: NG_CPMS_EXTTABLE
+
+[Mon Jun 26 17:41:22 GST 2023]
+Transaction table Name: 
+
+[Mon Jun 26 17:41:22 GST 2023]
+inside checkMandatoryRepetitiveTagsDBO
+
+[Mon Jun 26 17:41:22 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select REPETITIVETAGNAME,PROCESSID,TRANSACTIONTABLE,ISMANDATORY from USR_0_WSR_PROCESS_REPETITIVE with(nolock) where ProcessName='CPMS' and SUBPROCESSNAME='CCS.GAD' and ISACTIVE='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+	</Records>
+	<TotalRetrieved>0</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+inside checkExistingSession
+
+[Mon Jun 26 17:41:22 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select randomnumber from pdbconnection with(nolock) where userindex in (select userindex from pdbuser with(nolock) where username='mqserviceuser')</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<randomnumber>2089568245</randomnumber>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+SessionID: 2089568245
+
+[Mon Jun 26 17:41:22 GST 2023]
+WFUploadWorkItemXML Input: <?xml version="1.0"?>
+<WFUploadWorkItem_Input>
+<Option>WFUploadWorkItem</Option>
+<EngineName>rakcas</EngineName>
+<SessionId>2089568245</SessionId>
+<ProcessDefId>60</ProcessDefId>
+<QueueId>2136</QueueId>
+<InitiateAlso>N</InitiateAlso>
+<Attributes>
+<CIF_ID_CustomerDetails>1234567</CIF_ID_CustomerDetails>
+<MobileNo_CustomerDetails>0097158671995376</MobileNo_CustomerDetails>
+<ComplaintCategory>Accounts</ComplaintCategory>
+<ISRAKCustomer>Y</ISRAKCustomer><CreationChannel>Online</CreationChannel><Channel>EBC.WBA</Channel></Attributes>
+<UserDefVarFlag>Y</UserDefVarFlag>
+</WFUploadWorkItem_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+WFUploadWorkItemXML Input after replacing &: <?xml version="1.0"?>
+<WFUploadWorkItem_Input>
+<Option>WFUploadWorkItem</Option>
+<EngineName>rakcas</EngineName>
+<SessionId>2089568245</SessionId>
+<ProcessDefId>60</ProcessDefId>
+<QueueId>2136</QueueId>
+<InitiateAlso>N</InitiateAlso>
+<Attributes>
+<CIF_ID_CustomerDetails>1234567</CIF_ID_CustomerDetails>
+<MobileNo_CustomerDetails>0097158671995376</MobileNo_CustomerDetails>
+<ComplaintCategory>Accounts</ComplaintCategory>
+<ISRAKCustomer>Y</ISRAKCustomer><CreationChannel>Online</CreationChannel><Channel>EBC.WBA</Channel></Attributes>
+<UserDefVarFlag>Y</UserDefVarFlag>
+</WFUploadWorkItem_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+WFUploadWorkItemXML Output: <?xml version="1.0"?>
+<WFUploadWorkItem_Output>
+<Option>WFUploadWorkItem</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<ProcessInstanceId>CPMS-0000002497-Process</ProcessInstanceId><URN>CPMS-2497</URN><WorkStageId>1</WorkStageId><CreationDateTime>2023-06-26 17:41:22.417</CreationDateTime><FolderIndex>305415</FolderIndex><Documents></Documents><SessionId>2089568245</SessionId><UserName>mqserviceuser</UserName></WFUploadWorkItem_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+WINAME: CPMS-0000002497-Process
+
+[Mon Jun 26 17:41:22 GST 2023]
+trTableColumn dor DACWI_Name,DATE_TIME,User_d,Workstep,Department,Decision,Remarks
+
+[Mon Jun 26 17:41:22 GST 2023]
+trTableValue for CPMS'CPMS-0000002497-Process','2023-06-26 17:41:22','mqserviceuser','Initiation','Initiation','Submit','Workitem created through webservice'
+
+[Mon Jun 26 17:41:22 GST 2023]
+APInsert Input History: <?xml version="1.0"?><APInsert_Input><Option>APInsert</Option><TableName>NG_CPMS_GR_DECISIONHISTORY</TableName><ColName>WI_Name,DATE_TIME,User_d,Workstep,Department,Decision,Remarks</ColName><Values>'CPMS-0000002497-Process','2023-06-26 17:41:22','mqserviceuser','Initiation','Initiation','Submit','Workitem created through webservice'</Values><EngineName>rakcas</EngineName><SessionId>2089568245</SessionId></APInsert_Input>
+
+[Mon Jun 26 17:41:22 GST 2023]
+APInsert Output History: <?xml version="1.0"?>
+<APInsert_Output>
+<Option>APInsert</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>1</Output></APInsert_Output>
+
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside checkCallsMainCode
+
+[Mon Jun 26 17:41:22 GST 2023]
+Inside finally method to dispose off conenction objects and hash maps
+
+[Mon Jun 26 17:41:22 GST 2023]
+Header obtained
+
+[Mon Jun 26 17:41:22 GST 2023]
+returnCode: 0000 returnDesc: Success
+
+[Mon Jun 26 17:41:22 GST 2023]
+outputMessage: <?xml version="1.0"?><EE_EAI_MESSAGE><EE_EAI_HEADER><MsgFormat>CUSTOMER_SR</MsgFormat><MsgVersion>0000</MsgVersion><RequestorChannelId>EBC.WBA</RequestorChannelId><RequestorUserId>RAKUSER</RequestorUserId><RequestorLanguage>E</RequestorLanguage><RequestorSecurityInfo>secure</RequestorSecurityInfo><ReturnCode>0000</ReturnCode><ReturnDesc>Success</ReturnDesc><MessageId>Test19312123374445</MessageId><Extra1>REQ || DEH.123</Extra1><Extra2>2011-02-08T15:31:38.818+05:30</Extra2></EE_EAI_HEADER><CreateWorkitemRes><WorkitemNumber>CPMS-0000002497-Process</WorkitemNumber></CreateWorkitemRes></EE_EAI_MESSAGE>
+
+[Mon Jun 26 17:41:22 GST 2023]
+Exiting method callWICreateService
+

@@ -1,0 +1,222 @@
+[ INFO] 31-Mar-2023 16:24:30 (CreateWorkitem.java:261)
+MsgFormatName: UPDATE_SR
+
+[Fri Mar 31 16:24:30 GST 2023]
+Entering the callUpdateWIWebservice method
+
+[Fri Mar 31 16:24:30 GST 2023]
+callWI : A
+
+[Fri Mar 31 16:24:30 GST 2023]
+callWI : B
+
+[Fri Mar 31 16:24:30 GST 2023]
+Objects created
+
+[Fri Mar 31 16:24:30 GST 2023]
+Header parameters set
+
+[Fri Mar 31 16:24:30 GST 2023]
+Attribute Object Initialized
+
+[Fri Mar 31 16:24:30 GST 2023]
+Workitem Attributes set
+
+[Fri Mar 31 16:24:30 GST 2023]
+Setting the mandatory params
+
+[Fri Mar 31 16:24:56 GST 2023]
+inside wiUpdate 1
+
+[Fri Mar 31 16:25:00 GST 2023]
+Loading Configuration file
+
+[Fri Mar 31 16:25:00 GST 2023]
+CabinetName: rakcas, JtsIp: 10.15.12.164, JtsPort: 3333 ,Username: mqserviceuser, Password: 4A213C65C2981CC28BC3B0C3BC ,VolumeID: 1
+
+[Fri Mar 31 16:25:00 GST 2023]
+Configuration file loaded successfuly
+
+[Fri Mar 31 16:25:02 GST 2023]
+inside loadResourceBundle
+
+[Fri Mar 31 16:25:02 GST 2023]
+Status Codes loaded successfully
+
+[Fri Mar 31 16:25:19 GST 2023]
+Inside fetchRequestParameters
+
+[Fri Mar 31 16:25:19 GST 2023]
+attributeObj.length24
+
+[Fri Mar 31 16:25:19 GST 2023]
+sProcessName: Digital_CC, sSubProcess: STATEMENT_ANALYZED
+
+[Fri Mar 31 16:26:03 GST 2023]
+Inside validateRequestParameters
+
+[Fri Mar 31 16:26:07 GST 2023]
+APSelectWithColumnNames Input: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select a.PROCESSDEFID, b.PROCESSID from processdeftable a with(nolock),USR_0_WSR_UPDATE_PROCESS b with(nolock) where a.processname='Digital_CC' and b.SUBPROCESSNAME='STATEMENT_ANALYZED' and a.processname=b.processname and b.isactive='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:26:14 GST 2023]
+APSelectWithColumnNames Output: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<PROCESSDEFID>43</PROCESSDEFID>
+			<PROCESSID>DCC_FTS_DETAILS</PROCESSID>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Fri Mar 31 16:26:14 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:26:14 GST 2023]
+processDefID: 43
+
+[Fri Mar 31 16:26:14 GST 2023]
+processID: DCC_FTS_DETAILS
+
+[Fri Mar 31 16:26:20 GST 2023]
+Input XML to Get Activity Name: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ACTIVITYNAME  from QUEUEVIEW with (nolock) where PROCESSINSTANCEID='DCC-0000006512-process'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:26:20 GST 2023]
+Output XML to Get Activity Name: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<ACTIVITYNAME>Attach_Document</ACTIVITYNAME>
+		</Record>
+		<Record>
+			<ACTIVITYNAME>Sys_FTS_WI_Update</ACTIVITYNAME>
+		</Record>
+	</Records>
+	<TotalRetrieved>2</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Fri Mar 31 16:26:20 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:26:20 GST 2023]
+ActivityName from QueueView: Attach_Document`Sys_FTS_WI_Update
+
+[Fri Mar 31 16:26:39 GST 2023]
+Input XML to Get Possible Update Queues: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select QUEUENAME from USR_0_WSR_UPDATE_POSSIBLEQUEUES with (nolock) where ProcessName='Digital_CC' AND SUBPROCESSNAME ='STATEMENT_ANALYZED'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:26:40 GST 2023]
+Output XML to Get Possible Update Queues: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<QUEUENAME>Sys_FTS_WI_Update</QUEUENAME>
+		</Record>
+	</Records>
+	<TotalRetrieved>1</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Fri Mar 31 16:26:40 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:26:40 GST 2023]
+PossibleQueues from Master: Sys_FTS_WI_Update
+
+[Fri Mar 31 16:26:47 GST 2023]
+Update request is possible at this queue: Attach_Document`Sys_FTS_WI_Update
+
+[Fri Mar 31 16:26:52 GST 2023]
+inside checkMandatoryAttribute
+
+[Fri Mar 31 16:26:52 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME from USR_0_WSR_UPDATE_ATTRDETAILS where PROCESSID='DCC_FTS_DETAILS' and ISMANDATORY='Y' and ISACTIVE='Y'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:26:52 GST 2023]
+Output XML: <?xml version="1.0"?>
+<APSelectWithColumnNames_Output>
+<Option>APSelectWithColumnNames</Option>
+<Exception>
+<MainCode>0</MainCode>
+</Exception>
+<Output>
+	<Records>
+		<Record>
+			<ATTRIBUTENAME>WINUMBER</ATTRIBUTENAME>
+		</Record>
+		<Record>
+			<ATTRIBUTENAME>Prospect_id</ATTRIBUTENAME>
+		</Record>
+	</Records>
+	<TotalRetrieved>2</TotalRetrieved>
+</Output></APSelectWithColumnNames_Output>
+
+
+[Fri Mar 31 16:26:52 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:27:20 GST 2023]
+inside checkAttributeTable_DCC
+
+[Fri Mar 31 16:27:20 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME,EXTERNALTABLECOLNAME, TRANSACTIONTABLECOLNAME, ISMANDATORY,ATTRIBUTE_FORMAT,ATTRIBUTE_TYPE from USR_0_WSR_UPDATE_ATTRDETAILS with(nolock) where ATTRIBUTENAME='WINUMBER' and PROCESSID='DCC_FTS_DETAILS'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:27:20 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:27:20 GST 2023]
+EXTERNALTABLECOLNAME: WINUMBERTRANSACTIONTABLECOLNAME:  PROCESSID: DCC_FTS_DETAILS ISMANDATORY: Y attNameFromTable:WINUMBER
+
+[Fri Mar 31 16:27:20 GST 2023]
+Attribute Name: WINUMBER
+
+[Fri Mar 31 16:27:21 GST 2023]
+inside checkAttributeTable_DCC
+
+[Fri Mar 31 16:27:21 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME,EXTERNALTABLECOLNAME, TRANSACTIONTABLECOLNAME, ISMANDATORY,ATTRIBUTE_FORMAT,ATTRIBUTE_TYPE from USR_0_WSR_UPDATE_ATTRDETAILS with(nolock) where ATTRIBUTENAME='Prospect_id' and PROCESSID='DCC_FTS_DETAILS'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:27:21 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:27:21 GST 2023]
+EXTERNALTABLECOLNAME: Prospect_idTRANSACTIONTABLECOLNAME:  PROCESSID: DCC_FTS_DETAILS ISMANDATORY: Y attNameFromTable:Prospect_id
+
+[Fri Mar 31 16:27:21 GST 2023]
+Attribute Name: Prospect_id
+
+[Fri Mar 31 16:27:21 GST 2023]
+inside checkAttributeTable_DCC
+
+[Fri Mar 31 16:27:21 GST 2023]
+Input XML: <?xml version='1.0'?><APSelectWithColumnNames_Input><Option>APSelectWithColumnNames</Option><Query>select ATTRIBUTENAME,EXTERNALTABLECOLNAME, TRANSACTIONTABLECOLNAME, ISMANDATORY,ATTRIBUTE_FORMAT,ATTRIBUTE_TYPE from USR_0_WSR_UPDATE_ATTRDETAILS with(nolock) where ATTRIBUTENAME='Stmt_Salary_1' and PROCESSID='DCC_FTS_DETAILS'</Query><EngineName>rakcas</EngineName></APSelectWithColumnNames_Input>
+
+[Fri Mar 31 16:27:21 GST 2023]
+Inside checkCallsMainCode
+
+[Fri Mar 31 16:27:21 GST 2023]
+EXTERNALTABLECOLNAME: Net_Salary1TRANSACTIONTABLECOLNAME:  PROCESSID: DCC_FTS_DETAILS ISMANDATORY: N attNameFromTable:Stmt_Salary_1
+
+[Fri Mar 31 16:27:21 GST 2023]
+Attribute Name: Stmt_Salary_1
+
+[Fri Mar 31 16:28:20 GST 2023]
+inside checkAttributeTable_DCC
+

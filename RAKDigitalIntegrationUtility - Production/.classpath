@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_311"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/Amazon.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/aws-java-sdk-1.11.40.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/azure-storage-5.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/com.ibm.ws.ejb.thinclient_8.5.0.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/commons-codec-1.7.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/commons-io-2.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/DataEncryption.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/ejb.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/ejbclient.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/iforms.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/ISPack.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/itextpdf-5.3.2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/jdts.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/joda-time-2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/ngejbcallbroker.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/NIPLJ.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/nsms.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/omnishared.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/SecurityAPI.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/stubs.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/stubswfscustom.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/stubwfs.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/wfdesktop.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/wfsclient.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/xml-apis-1.0.b2.jar"/>
+	<classpathentry kind="lib" path="D:/Eclipse_workplace/RAKDigitalIntegrationUtility - Production/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
